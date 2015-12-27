@@ -1,0 +1,38 @@
+.table-panel{
+	table-layout: fixed;
+	width: 100%;
+}
+.-table-striped > td,
+{
+	margin: 5px 0;
+}
+.table-panel>tr:first-child>td{
+	width: 10%;
+}
+
+.-table-striped>tbody>tr:nth-child(even)>td {
+	background-color: #2A9FD6;
+}
+.-table-striped>tbody>td{
+	background-color: #2A9FD6;
+}
+.-table-striped>tbody>tr:nth-child(odd)>td {
+	background-color: #2FBF86;
+}
+
+.txt-in-head {
+	width: 30%;
+	display: inline;
+}
+
+.close-btn{
+	position: relative;
+
+	bottom:10px;
+	right: 3px 
+}
+
+.br{
+	height: 10px;
+}
+

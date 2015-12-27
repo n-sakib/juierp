@@ -1,0 +1,12 @@
+{
+  "name": "অভিযাত্রী",
+  "description": "Enterprise Management System For Avijatry, (c) El Acci Systems Inc.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "urls": ["http://avijatry.store/"],
+    "launch":{"web_url":"http://avijatry.store/"}
+  },
+  "permissions":["unlimitedStorage","notifications"],
+  "icons": { "16": "calculator-16.png", "128": "calculator-128.png" }
+}
